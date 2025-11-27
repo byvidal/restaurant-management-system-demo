@@ -35,7 +35,7 @@ A central control tower for business owners and managers.
 
 * **Backend Framework:** Python / Django 5.0+
 * **API:** Django REST Framework (ViewSet Architecture)
-* **Database:** PostgreSQL (Production ready) or SQLite (Development)
+* **Database:** PostgreSQL - Production ready
 * **Security:** Authentication uses HttpOnly Cookies to prevent XSS attacks, superior to standard local storage tokens.
 * **Data Integrity:** Financial logic is handled via Django Signals to ensure data consistency across the database.
 
