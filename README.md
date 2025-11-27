@@ -1,114 +1,76 @@
-# Comprehensive Restaurant Management System (Django 5)
+# Restaurant Management System (POS, KDS & Logistics)
 
-A production-ready, full-stack ERP solution designed for high-volume food service environments. This system integrates Point of Sale (POS), Kitchen Display Systems (KDS), and Logistics management into a single, cohesive platform.
+## Project Overview
 
-## Product Overview
+This repository serves as a demonstration and documentation hub for the Restaurant Management System, a comprehensive Enterprise Resource Planning (ERP) solution developed in Python and Django 5.
 
-This project goes beyond simple management templates. It is a fully operational operating system for pizzerias and restaurants, built to handle the chaotic reality of a busy kitchen. 
+**Please Note:** This repository contains visual demonstrations and feature documentation. The complete source code is a premium product available for commercial purchase.
 
-The architecture is designed API-First using Django REST Framework, ensuring that the backend logic is decoupled and ready to support native mobile applications or third-party integrations in the future. It focuses heavily on operational efficiency, reducing human error through automated financial calculations and providing real-time visibility into the business.
+### [Click Here to Purchase the Full Source Code]
+*(Insert your CodeCanyon/Gumroad/Fiverr link here)*
 
-## Core Modules
+---
 
-### 1. Point of Sale (POS) Terminal
-Designed for speed and reliability. The interface is optimized for touchscreen monitors and tablets, allowing cashiers to process orders rapidly.
-* **Smart Product Visualization:** Automatically categorizes items for quick access.
-* **Error-Free Financials:** All totals and subtotals are calculated securely on the server side to prevent manipulation or calculation errors.
+## System Description
 
-### 2. Kitchen Display System (KDS)
-Replaces traditional paper tickets with intelligent digital monitors. This module improves communication between the front of house and the kitchen.
-* **Time-Based Priority System:** Orders automatically change color based on their wait time (Green for new, Yellow for attention, Red for delayed), helping chefs prioritize effectively.
-* **Workflow Automation:** One-click status updates sync immediately across all devices.
+We have developed a robust, API-first operating system designed specifically for high-volume food service businesses. Unlike standard website templates, this application manages the entire operational lifecycle of a restaurant, from order entry to final delivery.
 
-### 3. Delivery Driver Web App
-A mobile-first interface designed specifically for logistics and delivery staff.
-* **Battery-Saving Design:** Features a dark mode interface to reduce battery consumption on OLED smartphone screens during shifts.
-* **GPS Integration:** Direct integration with mapping services to provide one-tap navigation to the customer's address.
-* **Fleet Management:** Drivers can claim ready orders and update delivery status in real-time.
+The system addresses critical operational bottlenecks by digitizing workflows that are typically handled manually or via disjointed software. It includes four integrated modules that communicate in real-time.
 
-### 4. Management & Analytics Dashboard
-A central control tower for business owners and managers.
-* **Real-Time KPIs:** Monitor daily sales, active orders, and product performance live.
-* **Security Protocols:** Critical actions, such as voiding orders or authorizing refunds, are protected by a supervisor password system.
+### Core Modules
 
-## Technical Architecture
+**1. Point of Sale (POS) Terminal**
+A touch-optimized interface for cashiers and waitstaff. It features smart product categorization and server-side financial calculations to ensure data integrity and prevent theft or error.
 
-* **Backend Framework:** Python / Django 5.0+
-* **API:** Django REST Framework (ViewSet Architecture)
-* **Database:** PostgreSQL - Production ready
-* **Security:** Authentication uses HttpOnly Cookies to prevent XSS attacks, superior to standard local storage tokens.
-* **Data Integrity:** Financial logic is handled via Django Signals to ensure data consistency across the database.
+**2. Kitchen Display System (KDS)**
+A digital replacement for kitchen printers. This module organizes incoming orders by priority using a time-based status system (New, Attention, Delayed), helping kitchen staff manage peak hours efficiently.
 
-## Installation Guide
+**3. Delivery Logistics App**
+A mobile-first web application for delivery drivers. It includes a dark mode interface for battery efficiency and direct integration with mapping services for one-tap navigation to customer addresses.
 
-Follow these steps to set up the project locally for development or testing.
+**4. Management Dashboard**
+A central command center for owners. It provides real-time analytics on sales and performance, along with role-based security controls for sensitive actions like voiding orders.
 
-### 1. Clone and Configure Environment
+---
 
-```bash
-git clone [https://github.com/.......git]
-cd restaurant-management-system-django
+## Technical Stack
 
-# Create a virtual environment
-python -m venv venv
+The source code is built on a modern, scalable architecture:
 
-# Activate the environment (Windows)
-.\venv\Scripts\activate
+* **Backend:** Python 3.10+, Django 5.0
+* **API:** Django REST Framework (ViewSet architecture)
+* **Database:** PostgreSQL (Production) / SQLite (Development)
+* **Security:** HttpOnly Cookies for authentication and Django Signals for data consistency.
+* **Deployment:** Includes automation scripts for role configuration.
 
-# Activate the environment (Mac/Linux)
-source venv/bin/activate
-````
+---
 
-### 2\. Install Dependencies
+## Image Gallery
 
-```bash
-pip install -r requirements.txt
-```
+### Point of Sale Interface
+*(Upload your POS screenshot to this repository and link it here)*
 
-### 3\. Environment Variables
+### Kitchen Monitor (KDS)
+*(Upload your Kitchen Monitor screenshot to this repository and link it here)*
 
-Create a file named .env in the root directory (you can use .env.example as a reference) and configure your database settings.
+### Delivery Driver Mobile View
+*(Upload your Driver App screenshot to this repository and link it here)*
 
-```ini
-DEBUG=True
-SECRET_KEY=your_secure_secret_key_here
-DB_NAME=your_db_name
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
-DB_HOST=localhost
-```
+---
 
-### 4\. Database Setup and Initialization
+## Purchase and License
 
-We have included a custom automation script to save you time configuring user permissions.
+The full source code package includes:
+1.  Complete Django Project files.
+2.  Installation guide and requirements.
+3.  Automation scripts for user role setup.
+4.  Commercial usage license.
 
-```bash
-# Apply database migrations
-python manage.py makemigrations
-python manage.py migrate
+**Get the source code here:**
+[Insert Link to Your Sales Page]
 
-# AUTOMATED SETUP: Configures groups and permissions (Manager, Cashier, Cook, Driver)
-python manage.py setup_roles
+---
 
-# Create an administrative user
-python manage.py createsuperuser
-```
+## Contact
 
-### 5\. Run the Server
-
-```bash
-python manage.py runserver
-```
-
-## User Roles and Testing
-
-After running the setup\_roles command, the system is ready for testing. You can create users in the Django Admin panel and assign them one of the following roles to access their specific interfaces:
-
-  * **Gerente (Manager):** Access to /dashboard for analytics and control.
-  * **Cajero (Cashier):** Access to /pos for order entry.
-  * **Cocinero (Cook):** Access to /cocina for the KDS monitor.
-  * **Repartidor (Driver):** Access to /repartidor for delivery management.
-
-## License
-
-This source code is available for commercial use. Unauthorized redistribution or resale of the original source code is strictly prohibited.
+For questions regarding the system capabilities or installation support after purchase, please contact us via the marketplace messaging system.
