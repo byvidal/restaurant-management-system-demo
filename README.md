@@ -20,15 +20,12 @@ The system addresses critical operational bottlenecks by digitizing workflows th
 ### Core Modules
 
 **1. Point of Sale (POS) Terminal**
-![Point of Sale Interface](screenshots/pos.png)
 A touch-optimized interface for cashiers and waitstaff. It features smart product categorization and server-side financial calculations to ensure data integrity and prevent theft or error.
 
 **2. Kitchen Display System (KDS)**
-![Kitchen Monitor System](screenshots/kds.png)
 A digital replacement for kitchen printers. This module organizes incoming orders by priority using a time-based status system (New, Attention, Delayed), helping kitchen staff manage peak hours efficiently.
 
 **3. Delivery Logistics App**
-![Driver App Dark Mode](screenshots/driver.png)
 A mobile-first web application for delivery drivers. It includes a dark mode interface for battery efficiency and direct integration with mapping services for one-tap navigation to customer addresses.
 
 **4. Management Dashboard**
@@ -51,13 +48,13 @@ The source code is built on a modern, scalable architecture:
 ## Image Gallery
 
 ### Point of Sale Interface
-*(Upload your POS screenshot to this repository and link it here)*
+![Point of Sale Interface](screenshots/pos.png)
 
 ### Kitchen Monitor (KDS)
-*(Upload your Kitchen Monitor screenshot to this repository and link it here)*
+![Kitchen Monitor System](screenshots/kds.png)
 
 ### Delivery Driver Mobile View
-*(Upload your Driver App screenshot to this repository and link it here)*
+![Driver App Dark Mode](screenshots/driver.png)
 
 ---
 
