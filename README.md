@@ -6,8 +6,7 @@ This repository serves as a demonstration and documentation hub for the Restaura
 
 **Please Note:** This repository contains visual demonstrations and feature documentation. The complete source code is a premium product available for commercial purchase.
 
-### [Click Here to Purchase the Full Source Code]
-[![Buy on Gumroad](https://img.shields.io/badge/Buy%20Source%20Code-Gumroad-ff9000?style=for-the-badge&logo=gumroad)](https://vidalstack.gumroad.com/l/xyoig)
+### [![Buy on Gumroad](https://img.shields.io/badge/Buy%20Source%20Code-Gumroad-ff9000?style=for-the-badge&logo=gumroad)](https://vidalstack.gumroad.com/l/xyoig)
 
 ---
 
